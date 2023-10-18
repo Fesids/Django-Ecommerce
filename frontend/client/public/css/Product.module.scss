@@ -1,0 +1,100 @@
+// PRODUCT STYLE
+
+.product{
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 195px;
+    height: 80%;
+
+    .addButtonContainer{
+        width: 70%;
+        height: 6%;
+    }
+
+    .productImage{
+        margin-top: 12px;
+        width: 80%;
+        height: 65%;
+        border: 2px solid green;
+    }
+}
+
+// **** END **** //
+
+
+// LATEST PRODUCT LIST
+.latestProductList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 380px;
+    //background-color: black;
+
+
+    .productsContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 65%;
+        height: 100%;
+        //background-color: red;
+    }
+
+}
+
+// **** END **** //
+
+
+
+// PRODUCT DETAIL PAGE
+.productDetailPage{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+
+// **** END **** //
+
+
+
+// PRODUCT DETAIL
+
+.productDetailWrapper{
+    //margin-top: 30px;
+    background-color: black;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    //align-items: center;
+
+    .productDetailContainer{
+        display: grid;
+        grid-template-rows: 1fr 12fr;
+        border: 2px solid grey;
+        background-color: grey;
+        width: 100%;
+        height: 100%;
+       
+        .productDetailHead{
+            border: 2px solid black;
+            width: 100%;
+        }
+
+        .productDetail{
+            background-color: green;
+            width: 100%;
+        }
+     }
+
+}
+
+
+// **** END **** //
